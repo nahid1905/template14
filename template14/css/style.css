@@ -1,0 +1,96 @@
+*{
+	user-select: none;
+}
+.main{
+	width: 100%;
+	height: 700px;
+	background-color: #bbbaba;
+	position: relative;
+}
+.content{
+	position: absolute;
+	width: 80%;
+	height: 100%;
+	background-color: white;
+	margin-left: 125px;
+}
+.basliq{
+ 	position: relative;
+ 	width: 80%;
+ 	border-bottom: 1.5px solid #bbbaba;
+ 	margin: 0px 50px 0px 50px;
+	
+}
+.basliq h2{
+	color: #9a9a09;
+	font-size: 2em;
+	display: inline-block;
+}
+.basliq ul{
+	display: inline-block;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 200px;
+}
+.basliq ul li{
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+}
+.basliq ul li:hover{
+	cursor: pointer;
+	color: #9a9a09;
+	border-bottom: 3px solid #9a9a09;
+	padding: 0px 0px 15px 0px;
+}
+.basliq i{
+	margin-left: 30px;
+	cursor: pointer;
+}
+.sekil p{
+	text-align: center;
+	font-size: 1.7em;
+	margin: 50px auto;
+}
+.sekil span{
+	cursor: pointer;
+	color: #9a9a09;
+}
+.sekil span:hover{
+	color: orange;
+	border-bottom: 2px solid orange;
+	padding: 0px 0px 10px 0px;
+}
+
+.sekil .pen{
+	width: 100%;
+	height: 330px;
+	background-image: url(../images/2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.iconlar{
+	width: 100%;
+	height: 80px;
+	background-color: #efecec;
+	margin-top: -16px;
+	border-bottom: 2px solid #a2a2a2;
+}
+.iconlar ul li{
+	list-style: none;
+	float: left;
+	margin-left: 100px;
+	margin-top: 15px;
+	cursor: pointer;
+	
+}
+.iconlar ul li:hover{
+	color: #9a9a09;
+	border-bottom: 3px solid #9a9a09;
+	padding: 0px 0px 27px 0px;
+}
+.iconlar i{
+	font-size: 2.1em;
+}
+
+
